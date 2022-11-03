@@ -1,0 +1,124 @@
+.menu {
+    list-style:none;
+    display:flex;
+    gap: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    display:grid ;
+    grid-template-columns:repeat(3, 1fr); 
+    grid-auto-rows: 100px;
+}
+
+.box1 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color: gold;
+}
+
+.box2 {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: green;
+}
+
+.box3 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: blue;
+}
+
+.box4 {
+    grid-column-start: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: red;
+}
+
+.box5 {
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color: gold;
+}
+
+.cabecera {
+    display:flex;
+}
+
+.imagen-menu{
+    width: 50px;
+    height: 50px;
+    align-items: flex-end;
+}
+
+/*----------------------------------PRODUCTOS----------------------------------*/
+
+.wrapper-productos{
+    border: 2px solid black;
+    
+    display:grid ;
+    grid-template-columns:repeat(3, 1fr); 
+    grid-auto-rows: 100px;
+    background-image: radial-gradient(circle at 108.44% 44.89%, #ff997d 0, #ff8b85 10%, #ff7d8a 20%, #ff6f8d 30%, #ff618d 40%, #f25389 50%, #d54783 60%, #ba3e7e 70%, #a23779 80%, #8d3275 90%, #7a2f71 100%);}
+
+.box1-p {
+    
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 9;
+    text-align: center;
+}
+
+.box2-p {
+    
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color: gray;
+    text-align: center;
+}
+
+.box3-p {
+    
+    grid-column-start: 2;
+    grid-row-start: 4;
+    grid-row-end: 7;
+    background-color: rgb(95, 94, 94);
+    text-align: center;
+}
+
+.box4-p {
+    
+    grid-column-start: 2;
+    grid-row-start: 7;
+    grid-row-end: 10;
+    background-color: gray;
+    text-align: center;
+}
+
+.box5-p {
+    
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 10;
+    text-align: center;
+    
+    
+}
+
+.dos {
+    width: 200px;
+    height: 135px;
+}
