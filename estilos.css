@@ -70,7 +70,7 @@ a {
 
 .cabecera {
     display:flex;
-    background-image: radial-gradient(circle at -18.3% 68.3%, #00a38d 0, #00a397 3.85%, #00a3a0 7.69%, #00a3aa 11.54%, #00a3b3 15.38%, #00a2bc 19.23%, #00a1c3 23.08%, #009fca 26.92%, #009dcf 30.77%, #009bd4 34.62%, #2699d7 38.46%, #4396d9 42.31%, #5993d9 46.15%, #6c90d8 50%, #7d8dd6 53.85%, #8c89d2 57.69%, #9a85cd 61.54%, #a681c7 65.38%, #b17ec0 69.23%, #bb7bb8 73.08%, #c378b0 76.92%, #ca75a6 80.77%, #cf749d 84.62%, #d37393 88.46%, #d57289 92.31%, #d67380 96.15%, #d67476 100%);
+    background-image: linear-gradient(180deg, #cdc3ff 0, #9d9df2 50%, #7278b7 100%);
 }
 
 .imagen-menu{
