@@ -18,8 +18,9 @@ h1 {
 }
 
 ul {
-    
+    text-align: justify;
     color: white;
+    font-size: 150%;
 }
 
 a {
@@ -35,40 +36,41 @@ a {
 .box1 {
     grid-column-start: 1;
     grid-row-start: 1;
-    grid-row-end: 4;
+    grid-row-end: 10;
     background-color: gold;
 }
 
 .box2 {
     grid-column-start: 2;
     grid-row-start: 1;
-    grid-row-end: 2;
+    grid-row-end: 4;
     background-color: green;
 }
 
 .box3 {
     grid-column-start: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 7;
     background-color: blue;
 }
 
 .box4 {
     grid-column-start: 2;
-    grid-row-start: 3;
-    grid-row-end: 4;
+    grid-row-start: 7;
+    grid-row-end: 10;
     background-color: red;
 }
 
 .box5 {
     grid-column-start: 3;
     grid-row-start: 1;
-    grid-row-end: 4;
+    grid-row-end: 10;
     background-color: gold;
 }
 
 .cabecera {
     display:flex;
+    background-image: radial-gradient(circle at -18.3% 68.3%, #00a38d 0, #00a397 3.85%, #00a3a0 7.69%, #00a3aa 11.54%, #00a3b3 15.38%, #00a2bc 19.23%, #00a1c3 23.08%, #009fca 26.92%, #009dcf 30.77%, #009bd4 34.62%, #2699d7 38.46%, #4396d9 42.31%, #5993d9 46.15%, #6c90d8 50%, #7d8dd6 53.85%, #8c89d2 57.69%, #9a85cd 61.54%, #a681c7 65.38%, #b17ec0 69.23%, #bb7bb8 73.08%, #c378b0 76.92%, #ca75a6 80.77%, #cf749d 84.62%, #d37393 88.46%, #d57289 92.31%, #d67380 96.15%, #d67476 100%);
 }
 
 .imagen-menu{
@@ -81,57 +83,90 @@ a {
 
 .wrapper-productos{
     display:grid ;
-    grid-template-columns:repeat(3, 1fr); 
-    grid-auto-rows: 100px;
+    grid-template-columns:repeat(3, 0.3fr); 
+    grid-auto-rows: 120px;
+    /* Para alinear columnas*/
+    justify-content: center;
     
 }
-    
+
 .box1-p {
     
     grid-column-start: 1;
     grid-row-start: 1;
-    grid-row-end: 9;
-    text-align: center;
+    grid-row-end: 6;;
+    text-align:center;
+    
+
 }
 
 .box2-p {
     
     grid-column-start: 2;
     grid-row-start: 1;
-    grid-row-end: 4;
-   
+    grid-row-end: 6;
     text-align: center;
 }
 
 .box3-p {
     
-    grid-column-start: 2;
-    grid-row-start: 4;
-    grid-row-end: 7;
-    
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 6;
     text-align: center;
 }
 
 .box4-p {
     
-    grid-column-start: 2;
-    grid-row-start: 7;
-    grid-row-end: 10;
-    
+    grid-column-start: 1;
+    grid-row-start: 6;
+    grid-row-end: 11;
     text-align: center;
 }
 
 .box5-p {
     
-    grid-column-start: 3;
-    grid-row-start: 1;
-    grid-row-end: 10;
+    grid-column-start: 2;
+    grid-row-start: 6;
+    grid-row-end: 11;
     text-align: center;
-    
-    
 }
 
-.dos {
-    width: 200px;
-    height: 135px;
+.box6-p {
+    
+    grid-column-start: 3;
+    grid-row-start: 6;
+    grid-row-end: 11;
+    text-align: center;
+}
+
+.box7-p {
+    
+    grid-column-start: 1;
+    grid-row-start: 11;
+    grid-row-end: 16;
+
+    text-align: center;
+}
+
+.box8-p {
+    
+    grid-column-start: 2;
+    grid-row-start: 11;
+    grid-row-end: 16;
+
+    text-align: center;
+}
+
+.box9-p {
+    
+    grid-column-start: 3;
+    grid-row-start: 11;
+    grid-row-end: 16;
+
+    text-align: center;
+}
+
+.pr {
+    height: 250px;
 }
