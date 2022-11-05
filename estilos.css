@@ -1,3 +1,11 @@
+body {
+    background-image: url(/img/fondo.jpg);
+    backdrop-filter: blur(1px);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+
 .menu {
     list-style:none;
     display:flex;
@@ -6,6 +14,12 @@
 
 h1 {
     text-align: center;
+    color: white;
+}
+
+ul {
+    
+    color: white;
 }
 
 a {
@@ -66,13 +80,12 @@ a {
 /*----------------------------------PRODUCTOS----------------------------------*/
 
 .wrapper-productos{
-    border: 2px solid black;
-    
     display:grid ;
     grid-template-columns:repeat(3, 1fr); 
     grid-auto-rows: 100px;
-    background-image: radial-gradient(circle at 108.44% 44.89%, #ff997d 0, #ff8b85 10%, #ff7d8a 20%, #ff6f8d 30%, #ff618d 40%, #f25389 50%, #d54783 60%, #ba3e7e 70%, #a23779 80%, #8d3275 90%, #7a2f71 100%);}
-
+    
+}
+    
 .box1-p {
     
     grid-column-start: 1;
@@ -86,7 +99,7 @@ a {
     grid-column-start: 2;
     grid-row-start: 1;
     grid-row-end: 4;
-    background-color: gray;
+   
     text-align: center;
 }
 
@@ -95,7 +108,7 @@ a {
     grid-column-start: 2;
     grid-row-start: 4;
     grid-row-end: 7;
-    background-color: rgb(95, 94, 94);
+    
     text-align: center;
 }
 
@@ -104,7 +117,7 @@ a {
     grid-column-start: 2;
     grid-row-start: 7;
     grid-row-end: 10;
-    background-color: gray;
+    
     text-align: center;
 }
 
