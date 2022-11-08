@@ -1,8 +1,8 @@
 body {
     background-image: url(/img/fondo.jpg);
-    backdrop-filter: blur(1px);
-    background-size:cover;
-    background-repeat:no-repeat;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 
@@ -31,16 +31,19 @@ a {
 
 .wrapper {
     display:grid ;
-    grid-template-columns:repeat(3, 1fr); 
+    grid-template-columns:repeat(1, 1fr); 
     grid-auto-rows: 100px;
     text-align: center;
 }
 
 .box1 {
     grid-column-start: 1;
+    grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 10;
-    background-color: gold;
+    color: white;
+    font-size: xx-large;
+    font-family: 'Press Start 2P', cursive;
 }
 
 .box2 {
